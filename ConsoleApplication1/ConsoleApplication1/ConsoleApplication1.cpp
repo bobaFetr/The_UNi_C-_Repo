@@ -10,20 +10,54 @@ using namespace std;
 // }
 
 //it can be also written as:
+
+
+
+int main5() {
+    int myAge = 35;
+    cout << "I am " << myAge << " years old.";
+    return 0;
+}
+
+int main4() {
+    int myNum;
+    myNum = 15;
+    ////////////////
+    int myNum1 = 5;               // Integer (whole number without decimals)
+    double myFloatNum = 5.99;    // Floating point number (with decimals)
+    char myLetter = 'D';         // Character
+    string myText = "Hello";     // String (text)
+    bool myBoolean = true;       // Boolean (true or false)
+
+    //////////////////////////
+    cout << "myNum \n";
+    return 0;
+	//creating a variable called myNum and assigning it the value of 15
+}
+
+int main3() {
+	cout << "Hello World!" << endl;//endl - this also works to insert a new line
+    cout << "I am learning C++ ";
+    return 0;
+}
+
 int main1() { cout << " Hello World!(Main1) "; return 0; }
 
 int main2() {
-    std::cout << " Hello World from Bobi who's learning c++ right now(Main2) ";
+    std::cout << " Hello World from Bobi who's learning c++ right now(Main2) \n";
     return 0;
 }
 
 int main() {
-    cout << " Hello World(Main function) ";
+    cout << " Hello World(Main function) \n";
     cout << " MainM \n";
-    cout << "126777 ";
+    cout << "126777 \n";
     cout << 2 * 5;
 	main1();// the second main function is called here
 	main2();// the third main function is called here
+	main3();// the fourth main function is called here
+    main4();
+    main5();
     return 0;
 }
 // "\n" means new line
