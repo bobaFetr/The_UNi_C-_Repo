@@ -2,11 +2,30 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+// int main () {
+//     std::cout << "Hello world" << std::endl;
+//     return 0;
+// }
+
+//it can be also written as:
+int main1() { cout << "Hello World! "; return 0; }
+
+int main2() {
+    std::cout << "Hello World from Bobi who's learning c++ right now";
+    return 0;
 }
+
+int main() {
+    cout << "Hello Worlddddd ";
+	main1();// the second main function is called here
+	main2();// the third main function is called here
+    return 0;
+}
+//learning c++ as a begginner
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
