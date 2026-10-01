@@ -13,17 +13,17 @@ using namespace std;
 //Multi - line Comment example:
 /* The code below will print the words Hello World!
 to the screen, and it is amazing */
+// add other separeate functions for the uni tasks
 
-
-int main7() {
-    int x, y;
-    int sum;
-    cout << "Type a number: ";
+int main7() {// little demo calculator
+    int x, y;//declaring variables
+    int sum;// declaring the sum variable which will hold the result
+    cout << "Type a number: ";//here the user types the the first number
     cin >> x;//the user enters a number
     cout << "Type another number: ";
-    cin >> y;
-    sum = x + y;
-    cout << "Sum is: " << sum;
+    cin >> y;// the user types the second number
+    sum = x + y;// here the summing happens
+    cout << "Sum is: " << sum;//the code prints the result
     return 0;// end of the function
 }
 
@@ -43,11 +43,11 @@ int main6() {
     return 0;// end of the function
 }
 
-const int myNum = 15;  // myNum will always be 15(It can't be changed)
+const int myNum = 15;  // myNum will always be 15(It can't be changed because of the const)
 int main5() {
-    int myAge = 35;
-    cout << "I am " << myAge << " years old.";
-    return 0;
+    int myAge = 35;//declaring int variable
+    cout << "I am " << myAge << " years old."; //printing text with the varuable's value
+    return 0;// end of the function
 }
 
 int main4() {
