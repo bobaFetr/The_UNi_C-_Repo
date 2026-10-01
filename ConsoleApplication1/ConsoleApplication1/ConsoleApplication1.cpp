@@ -10,19 +10,23 @@ using namespace std;
 // }
 
 //it can be also written as:
-int main1() { cout << "Hello World! "; return 0; }
+int main1() { cout << " Hello World!(Main1) "; return 0; }
 
 int main2() {
-    std::cout << "Hello World from Bobi who's learning c++ right now";
+    std::cout << " Hello World from Bobi who's learning c++ right now(Main2) ";
     return 0;
 }
 
 int main() {
-    cout << "Hello Worlddddd ";
+    cout << " Hello World(Main function) ";
+    cout << " MainM \n";
+    cout << "126777 ";
+    cout << 2 * 5;
 	main1();// the second main function is called here
 	main2();// the third main function is called here
     return 0;
 }
+// "\n" means new line
 //learning c++ as a begginner
 
 
