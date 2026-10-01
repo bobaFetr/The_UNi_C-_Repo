@@ -10,9 +10,40 @@ using namespace std;
 // }
 
 //it can be also written as:
+//Multi - line Comment example:
+/* The code below will print the words Hello World!
+to the screen, and it is amazing */
 
 
+int main7() {
+    int x, y;
+    int sum;
+    cout << "Type a number: ";
+    cin >> x;//the user enters a number
+    cout << "Type another number: ";
+    cin >> y;
+    sum = x + y;
+    cout << "Sum is: " << sum;
+    return 0;// end of the function
+}
 
+int main6() {
+    // Create integer variables
+    int length = 4;
+    int width = 6;
+
+    // Calculate the area of a rectangle
+    int area = length * width;
+
+    // Print the variables
+    cout << "Length is: " << length << "\n";
+    cout << "Width is: " << width << "\n";
+    cout << "Area of the rectangle is: " << area << "\n";
+
+    return 0;// end of the function
+}
+
+const int myNum = 15;  // myNum will always be 15(It can't be changed)
 int main5() {
     int myAge = 35;
     cout << "I am " << myAge << " years old.";
@@ -30,14 +61,16 @@ int main4() {
     bool myBoolean = true;       // Boolean (true or false)
 
     //////////////////////////
+    int x = 5, y = 6, z = 50;
+    cout << x + y + z << "\n";
     cout << "myNum \n";
     return 0;
 	//creating a variable called myNum and assigning it the value of 15
 }
 
 int main3() {
-	cout << "Hello World!" << endl;//endl - this also works to insert a new line
-    cout << "I am learning C++ ";
+	cout << "Hello World! \n" << endl;//endl - this also works to insert a new line
+    cout << "I am learning C++ \n";
     return 0;
 }
 
@@ -58,6 +91,8 @@ int main() {
 	main3();// the fourth main function is called here
     main4();
     main5();
+    main6();
+    main7();
     return 0;
 }
 // "\n" means new line
