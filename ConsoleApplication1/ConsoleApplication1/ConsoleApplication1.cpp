@@ -28,6 +28,70 @@ void BobiFunction()//just wanted to see if i can declare void function🏗️(be
 {
 
 }
+int Mathematic_things_because_its_inevitable() {
+    int sum1 = 100 + 50;        // 150 (100 + 50)
+    int sum2 = sum1 + 250;      // 400 (150 + 250)
+    int sum3 = sum2 + sum2;     // 800 (400 + 400)
+
+    int m = 5;
+    int n = 3;
+    cout << m - n << "\n";//Subtraction
+    cout << m * n << "\n";//Multiplication
+
+    //Arithmetic Operators full example
+    int x = 10;
+    int y = 3;
+
+    cout << (x + y) << "\n"; // 13
+    cout << (x - y) << "\n"; // 7
+    cout << (x * y) << "\n"; // 30
+    cout << (x / y) << "\n"; // 3 (integer division)
+    cout << (x % y) << "\n"; // 1
+
+    int z = 5;
+    ++z;
+    cout << z << "\n"; // 6
+    --z;
+    cout << z << "\n"; // 5
+    cout << "\n";//decided to check if i can insert an empty line this way
+    cout << z << "\n"; // 5
+
+
+    //Assignment Operators list:
+    //=
+    int nb = 5;
+    cout << nb << "\n";
+
+    //+=
+    int rt = 5;
+    rt += 3;
+    cout << rt << "\n";
+    cout << "\n";
+    //-= x -= 3	x = x - 3
+    //*= x *= 3	x = x * 3
+    // /= x /= 3	x = x / 3
+    // %= x %= 3	x = x % 3
+    // &= x &= 3	x = x & 3
+    // |= x |= 3	x = x | 3
+    // ^= x ^= 3	x = x ^ 3
+    // >>= x >>= 3	x = x >> 3
+    // <<= x <<= 3	x = x << 3
+
+    //Comparison Operators list:
+    // ==	Equal to	x == y	
+    // !=	Not equal	x != y	
+    // >	Greater than	x > y	
+    // <	Less than	x < y	
+    // >=	Greater than or equal to	x >= y	
+    // <=	Less than or equal to	x <= y
+
+
+    ////
+    int age = 18;
+    cout << (age >= 18) << "\n"; // 1 (true), old enough to vote
+    cout << (age < 18) << "\n";  // 0 (false)
+    return 0;
+}
 int Real_Life_Example() {
     // Student data
     int studentID = 15;
@@ -105,6 +169,8 @@ int main4() {
     int x = 5, y = 6, z = 50;//Multiple Variables declaration example
     cout << x + y + z << "\n";
     cout << "myNum \n";
+    auto r = 5; // r is automatically treated as int
+    //JUST LIKE THE "VAR" TYPE IN C#
     return 0;
 	//creating a variable called myNum and assigning it the value of 15
     //If you are viewing this code and u are new to programing/coding.... EVERY FUCKING VARIABLE MUST HAVE A UNIQE NAME NOT SHIT 
@@ -132,11 +198,12 @@ int main() {
 	//main1();// the second main function is called here
 	//main2();// the third main function is called here
 	//main3();// the fourth main function is called here
-    main4();
+    //main4();
     //main5();
     //main6();
     //main7();
     //Real_Life_Example();
+    Mathematic_things_because_its_inevitable();
     return 0;
 }
 // "\n" means new line
