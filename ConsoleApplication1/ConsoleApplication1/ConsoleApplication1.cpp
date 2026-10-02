@@ -7,6 +7,8 @@ using namespace std;
 // int main () {
 //     std::cout << "Hello world" << std::endl;
 // ////Here std:: is used to omit the "using namespace std;"
+// From https://www.w3schools.com/: "Using std:: makes it clear where names come from and 
+// avoids name conflicts in larger programs."
 //     return 0;
 // }
 
@@ -15,7 +17,31 @@ using namespace std;
 /* The code below will print the words Hello World!
 to the screen, and it is amazing */
 // add other separeate functions for the uni tasks
+//Basic Data Types
+//bool	1 byte	Stores true or false values
+//char	1 byte	Stores a single character/letter/number, or ASCII values
+//int	2 or 4 bytes	Stores whole numbers, without decimals
+//float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
+//double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
 
+void BobiFunction()//just wanted to see if i can declare void function🏗️(because i know in c# this is possible, but wasn't sure about c++)
+{
+
+}
+int Real_Life_Example() {
+    // Student data
+    int studentID = 15;
+    int studentAge = 23;
+    double studentFee = 75.25;
+    char studentGrade = 'B';
+
+    // Print variables
+    cout << "Student ID: " << studentID << "\n";
+    cout << "Student Age: " << studentAge << "\n";
+    cout << "Student Fee: " << studentFee << "\n";
+    cout << "Student Grade: " << studentGrade << "\n";
+    return 0;
+}
 int main7() {// little demo calculator
     int x, y;//declaring variables
     int sum;// declaring the sum variable which will hold the result
@@ -57,16 +83,32 @@ int main4() {
     ////////////////
     int myNum1 = 5;               // Integer (whole number without decimals)
     double myFloatNum = 5.99;    // Floating point number (with decimals)
+    float floatVariable = 6.77098234;
+    //The precision of a floating point value indicates how many digits the value can have after the decimal point. 
+    // The precision of float is only six or seven
+    //decimal digits, while double variables have a precision of about 15 digits. 
+    ///Therefore it is safer to use double for most calculations.
+    //Scientific Number example:
+    //A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+    float f1 = 35e3;
+    cout << f1 << "Science NUmber ";
     char myLetter = 'D';         // Character
     string myText = "Hello";     // String (text)
     bool myBoolean = true;       // Boolean (true or false)
-
+    ////////////////////////////
+    // bools example, yeah the true and false..... Thing
+    bool isCodingFun = true;//Sometimes the coding is not fun(so u know just in case)
+    bool isFishTasty = false;
+    cout << isCodingFun << "\n";  // Outputs 1 (true)
+    cout << isFishTasty << "\n";  // Outputs 0 (false)
     //////////////////////////
-    int x = 5, y = 6, z = 50;
+    int x = 5, y = 6, z = 50;//Multiple Variables declaration example
     cout << x + y + z << "\n";
     cout << "myNum \n";
     return 0;
 	//creating a variable called myNum and assigning it the value of 15
+    //If you are viewing this code and u are new to programing/coding.... EVERY FUCKING VARIABLE MUST HAVE A UNIQE NAME NOT SHIT 
+    // LIKE VARIABLE A OR B.
 }
 
 int main3() {
@@ -90,10 +132,11 @@ int main() {
 	//main1();// the second main function is called here
 	//main2();// the third main function is called here
 	//main3();// the fourth main function is called here
-    //main4();
+    main4();
     //main5();
     //main6();
-    main7();
+    //main7();
+    //Real_Life_Example();
     return 0;
 }
 // "\n" means new line
