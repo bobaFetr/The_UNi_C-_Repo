@@ -6,6 +6,7 @@ using namespace std;
 
 // int main () {
 //     std::cout << "Hello world" << std::endl;
+// ////Here std:: is used to omit the "using namespace std;"
 //     return 0;
 // }
 
@@ -82,16 +83,16 @@ int main2() {
 }
 
 int main() {
-    cout << " Hello World(Main function) \n";
+    /*cout << " Hello World(Main function) \n";
     cout << " MainM \n";
     cout << "126777 \n";
-    cout << 2 * 5;
-	main1();// the second main function is called here
-	main2();// the third main function is called here
-	main3();// the fourth main function is called here
-    main4();
-    main5();
-    main6();
+    cout << 2 * 5;*/
+	//main1();// the second main function is called here
+	//main2();// the third main function is called here
+	//main3();// the fourth main function is called here
+    //main4();
+    //main5();
+    //main6();
     main7();
     return 0;
 }
