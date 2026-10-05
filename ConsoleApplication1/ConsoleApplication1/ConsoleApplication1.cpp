@@ -24,16 +24,19 @@ to the screen, and it is amazing */
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
 
-void BobiFunction()//just wanted to see if i can declare void function🏗️(because i know in c# this is possible, but wasn't sure about c++)
+int  BobiFunction()//just wanted to see if i can declare void function🏗️(because i know in c# this is possible, but wasn't sure about c++)
 {
-    int age = 19;
-    string names = "Boris P";
+    int age = 19;//there are mistakes in trhis 
+    /*string names = "Boris P";
     string zodia = "vodolei";
-    cout << "Guess......"
-    if()
-    {
-
-    }
+    cout << "Guess the names, the zodia and the age";*/
+    int gueessInput;
+    cin >> gueessInput;
+    //if(gueessInput < age &&  gueessInput > age)//built this if statement using my C# knowledge, but it turned out to be wrong
+    //{
+    //    cout << "Wrong age!!!!! Try again";
+    //}
+    return 0;
 }
 int Mathematic_things_because_its_inevitable() {
     int sum1 = 100 + 50;        // 150 (100 + 50)
@@ -210,7 +213,8 @@ int main() {
     //main6();
     //main7();
     //Real_Life_Example();
-    Mathematic_things_because_its_inevitable();
+    //Mathematic_things_because_its_inevitable();
+    BobiFunction();
     return 0;
 }
 // "\n" means new line
