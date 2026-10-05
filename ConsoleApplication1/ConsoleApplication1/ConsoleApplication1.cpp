@@ -26,7 +26,14 @@ to the screen, and it is amazing */
 
 void BobiFunction()//just wanted to see if i can declare void function🏗️(because i know in c# this is possible, but wasn't sure about c++)
 {
+    int age = 19;
+    string names = "Boris P";
+    string zodia = "vodolei";
+    cout << "Guess......"
+    if()
+    {
 
+    }
 }
 int Mathematic_things_because_its_inevitable() {
     int sum1 = 100 + 50;        // 150 (100 + 50)
