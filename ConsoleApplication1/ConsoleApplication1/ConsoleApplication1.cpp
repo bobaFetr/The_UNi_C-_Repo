@@ -45,7 +45,11 @@ int  w3schools1()
     string firstName1 = "John ";
     string lastName1 = "Doe";
     string fullName1 = firstName1.append(lastName1);
-    cout << fullName1;
+    cout << fullName1 << endl;
+
+    /////////////////////////
+    string str = "aldsalsjhgjhgjdsfkfdghkdsjfghkjadsfhjksadf";
+    cout << "the lenght of the string is: " << str.length() << " symbols";
     return 0;
 }
 int  BobiFunction()//just wanted to see if i can declare void function🏗️(because i know in c# this is possible, but wasn't sure about c++)
