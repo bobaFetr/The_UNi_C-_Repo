@@ -49,7 +49,13 @@ int  w3schools1()
 
     /////////////////////////
     string str = "aldsalsjhgjhgjdsfkfdghkdsjfghkjadsfhjksadf";
-    cout << "the lenght of the string is: " << str.length() << " symbols";
+    cout << "the lenght of the string is: " << str.length() << " symbols \n";
+
+    //////////////
+    string myString = "Hello";
+    cout << myString[0] << "\n";// Outputs H and prints new line
+    cout << myString[2];// prints l
+    
     return 0;
 }
 int  BobiFunction()//just wanted to see if i can declare void function🏗️(because i know in c# this is possible, but wasn't sure about c++)
