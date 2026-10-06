@@ -36,6 +36,18 @@ int  BobiFunction()//just wanted to see if i can declare void function🏗️(be
     //{
     //    cout << "Wrong age!!!!! Try again";
     //}
+    if (gueessInput > age)
+    {
+        cout << "wrong guess......";
+    }
+    else  if(gueessInput < age)
+    {
+        cout << "wrong guess......";
+    }
+    else
+    {
+        cout << "yes";
+    }
     return 0;
 }
 int Mathematic_things_because_its_inevitable() {
