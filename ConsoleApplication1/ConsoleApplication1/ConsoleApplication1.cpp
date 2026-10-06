@@ -23,7 +23,31 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+int  w3schools1()
+{
+    // Include the string library
+    //#include <string>
 
+    string greeting = "Hello \n";
+    string greeting2 = "Hello and welcome \n";
+
+    // Print the string
+    cout << greeting;
+    cout << greeting2;
+
+    //Concatenation
+    string firstName = "John ";
+    string lastName = " Doe ";
+    string fullName = firstName + lastName;
+    cout << fullName << endl;
+    ////////////////////
+
+    string firstName1 = "John ";
+    string lastName1 = "Doe";
+    string fullName1 = firstName1.append(lastName1);
+    cout << fullName1;
+    return 0;
+}
 int  BobiFunction()//just wanted to see if i can declare void function🏗️(because i know in c# this is possible, but wasn't sure about c++)
 {
     int age = 19;//there are mistakes in trhis 
@@ -226,7 +250,8 @@ int main() {
     //main7();
     //Real_Life_Example();
     //Mathematic_things_because_its_inevitable();
-    BobiFunction();
+    //BobiFunction();
+    w3schools1();
     return 0;
 }
 // "\n" means new line
