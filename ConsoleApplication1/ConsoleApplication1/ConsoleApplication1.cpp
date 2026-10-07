@@ -23,7 +23,38 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+int uchebeChas() {
+    int broiY;
+    int broiOstanali;
 
+    cout << "vuvedi broi studentu s Y hromozona";
+    cin >> broiY;
+
+
+    cout << "vuvedi broi studentu bez Y hromozona";
+    cin >> broiOstanali;
+    double procentizaEdinChovek = (double)100 / (double)(broiY + broiOstanali);
+    cout << "procent hora s Y hrmozoan" << broiY * procentizaEdinChovek << endl;
+
+    cout << "procent hora bez Y hr." << 100 - broiY * procentizaEdinChovek << endl;
+    return 0;
+
+}
+int Math()
+{
+    #include <cmath>
+    //The max(x,y) function can be used to find the highest value of x and y:
+    cout << max(5, 10) << endl;
+
+    //And the min(x,y) function can be used to find the lowest value of x and y:
+    cout << min(5, 10) << endl;
+    /////////////
+    cout << "ldas;fsad;fsda;kfasdl;fk \n";
+    cout << sqrt(64) << endl;//(square root)
+    cout << round(2.6) << endl;//rounds a number
+    cout << log(2) << endl;//(natural logarithm)
+    return 0;
+}
 int  w3schools2()
 {
     //the at() function 
@@ -303,7 +334,9 @@ int main() {
     //Mathematic_things_because_its_inevitable();
     //BobiFunction();
     //w3schools1();
-    w3schools2();
+    //w3schools2();
+    //Math();
+    uchebeChas();
     return 0;
 }
 // "\n" means new line
