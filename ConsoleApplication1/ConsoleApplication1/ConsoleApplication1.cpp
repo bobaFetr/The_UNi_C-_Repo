@@ -23,6 +23,47 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+
+int  w3schools2()
+{
+    //the at() function 
+    string myString = "Hello";
+    cout << myString << endl; // Outputs Hello
+
+    cout << myString.at(0) << endl;  // First character
+    cout << myString.at(1) << endl;  // Second character
+    cout << myString.at(myString.length() - 1) << "\n\n";  // Last character
+
+    myString.at(0) = 'J';
+    cout << myString << endl;  // Outputs Jello
+
+    ///////////////////
+    ///Strings - Special Characters
+
+    //string txt = "We are the so-called "Vikings" from the north.";
+    //this is wrong
+    /////the right way
+    string txt = "We are the so-called \"Vikings\" from the north. \n";
+    cout << txt;
+    // single quiote
+    string txt1 = "It\'s alright. \n";
+    cout << txt1 << " space " <<  txt;
+    ///tab
+    string txt2 = "Hello\tWorld!";
+    cout << txt2;
+    ////////////////
+    //////////
+    string firstName;
+    cout << "Type your first name: ";
+    cin >> firstName; // get user input from the keyboard
+    cout << "Your name is: " << firstName;
+
+    // Type your first name: John
+    // Your name is: John
+    ////C++ User Input Strings w3 schools last revied page
+    return 0;
+}
+
 int  w3schools1()
 {
     // Include the string library
@@ -261,7 +302,8 @@ int main() {
     //Real_Life_Example();
     //Mathematic_things_because_its_inevitable();
     //BobiFunction();
-    w3schools1();
+    //w3schools1();
+    w3schools2();
     return 0;
 }
 // "\n" means new line
