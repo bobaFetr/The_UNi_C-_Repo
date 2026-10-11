@@ -23,6 +23,27 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+
+int Boolean_Values() {
+    //Boolean Values
+    //A boolean variable is declared with the bool keyword and can take the values true or false:
+    bool isCodingFun = true;
+    bool isFishTasty = false;
+
+    cout << isCodingFun << "\n";  // Outputs 1 (tяrue)
+    cout << isFishTasty << "\n"; // Outputs 0 (false)
+    //Printing true/false With boolalpha
+    bool isCodingFun1 = true;
+    bool isFishTasty1 = false;
+
+    cout << boolalpha; // enable printing "true"/"false"
+
+    cout << isCodingFun1 << "\n";   // Outputs true
+    cout << isFishTasty1 << "\n";  // Outputs false
+    return 0;
+}
+
+
 int uchebeChas() {
     int broiY;
     int broiOstanali;
@@ -336,7 +357,8 @@ int main() {
     //w3schools1();
     //w3schools2();
     //Math();
-    uchebeChas();
+    //uchebeChas();
+    Boolean_Values();
     return 0;
 }
 // "\n" means new line
