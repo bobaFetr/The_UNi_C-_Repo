@@ -24,7 +24,41 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+int cIfElsew3()
+{
+    //if
+    //example
+    if (20 > 18) {
+        cout << "20 is greater than 18" << endl;
+    }
+    //We can also use variables in conditions:
+    int x = 20;
+    int y = 18;
 
+    if (x > y) {
+        cout << "x is greater than y" << endl;  
+    }
+    //else
+    int time = 20;
+
+    if (time < 18) {
+        cout << "Good day.";
+    }
+    else {
+        cout << "Good evening Bro. What are u doing?";
+    }
+
+    // Outputs "Good evening."
+    
+    //else if
+    //short hand if else
+    //nested if
+    //logiacal operators
+    //real life examples
+    //code challlenge
+
+    return 0;
+}
 int loops()
 {
     for (int i = 0; i < 5; i++) {//HOLY SHIT THIS IS ABSOLUTELY THE SAME AS IN C#
@@ -38,7 +72,7 @@ int loops()
     // while loop that starts with i = 1 and ends
     // when i is greater than 5.
     while (i <= 5) {
-        cout << i << " ";
+        cout << i << " " << endl;
 
         // Updation
         i++;
@@ -380,7 +414,8 @@ int main() {
     //Math();
     //uchebeChas();
     //Boolean_Values();
-    loops();
+    //loops();
+    cIfElsew3();
     return 0;
 }
 // "\n" means new line
