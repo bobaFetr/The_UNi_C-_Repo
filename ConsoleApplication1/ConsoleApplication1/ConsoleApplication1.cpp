@@ -24,6 +24,37 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+int NajMalkoObshtooKratno()
+{
+    int a = 14;//later cin will be used
+    int b = 4;
+    int c = a * b;
+    int i = c;
+    //definition of the array s neizvestna golemina
+    while (i <= c)
+    {
+        if (i == 0)
+        {
+            //stop the loop
+        }
+        if (c % i != 0)
+        {
+            cout << "No";
+        }
+        else
+        {
+            cout << "Yes it divides the number";
+            if (i % a == 0 && i % b == 0)
+            {
+                cout << "Da tova e naj-malko obshto kratno";
+                //sloji chisloto v masiva
+            }
+        }
+        i--;
+    }
+    //the function is not yet ready because c++ arrays are not yet studied
+    return 0;
+}
 int cIfElsew3()
 {
     //if
