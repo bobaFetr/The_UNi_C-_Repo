@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 // int main () {
@@ -24,6 +25,26 @@ to the screen, and it is amazing */
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
 
+int loops()
+{
+    for (int i = 0; i < 5; i++) {//HOLY SHIT THIS IS ABSOLUTELY THE SAME AS IN C#
+        cout << "Hello World\n";
+    }//
+
+    /////////////////
+    // Initialization
+    int i = 1;
+
+    // while loop that starts with i = 1 and ends
+    // when i is greater than 5.
+    while (i <= 5) {
+        cout << i << " ";
+
+        // Updation
+        i++;
+    } //THIS WHILE SHITTY THING IS ALSO THE SAME AS IN C# DEAM BROOOOOOOOOO..............
+    return 0;
+}
 int Boolean_Values() {
     //Boolean Values
     //A boolean variable is declared with the bool keyword and can take the values true or false:
@@ -63,7 +84,7 @@ int uchebeChas() {
 }
 int Math()
 {
-    #include <cmath>
+    
     //The max(x,y) function can be used to find the highest value of x and y:
     cout << max(5, 10) << endl;
 
@@ -358,7 +379,8 @@ int main() {
     //w3schools2();
     //Math();
     //uchebeChas();
-    Boolean_Values();
+    //Boolean_Values();
+    loops();
     return 0;
 }
 // "\n" means new line
