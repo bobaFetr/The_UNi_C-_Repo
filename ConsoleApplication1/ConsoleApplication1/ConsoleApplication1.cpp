@@ -36,6 +36,7 @@ int NajMalkoObshtooKratno()
         if (i == 0)
         {
             //stop the loop
+            //the array  must be printed using for loop with the arrray's lenght
         }
         if (c % i != 0)
         {
