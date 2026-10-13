@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <list>
 using namespace std;
 
 // int main () {
@@ -26,17 +27,27 @@ to the screen, and it is amazing */
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
 int NajMalkoObshtooKratno()
 {
-    int a = 14;//later cin will be used
-    int b = 4;
+    int a;
+    int b;
+    cout << "Write the first number" << endl;
+    cin >> a;
+    cout << "Write the second number" << endl;
+    cin >> b;
     int c = a * b;
     int i = c;
     //use list
+    list<string> Numbers_which_can_divide_C;
     while (i <= c)
     {
         if (i == 0)
         {
             //stop the loop
+            break;
             //the list   must be printed using for loop with the arrray's lenght
+            for (int t = 0; t <= Numbers_which_can_divide_C.size(); i++)
+            {
+                cout << t << endl;
+            }
         }
         if (c % i != 0)
         {
@@ -49,6 +60,7 @@ int NajMalkoObshtooKratno()
             {
                 cout << "Da tova e naj-malko obshto kratno";
                 //sloji chisloto v lista
+                Numbers_which_can_divide_C.push_front(i);
             }
         }
         i--;
