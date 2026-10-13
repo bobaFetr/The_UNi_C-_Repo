@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cmath>
 #include <list>
+#include <vector>
 using namespace std;
 
 // int main () {
@@ -27,6 +28,8 @@ to the screen, and it is amazing */
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
 int NajMalkoObshtooKratno()
 {
+    //340
+    //100
     int a;
     int b;
     cout << "Write the first number" << endl;
@@ -43,27 +46,34 @@ int NajMalkoObshtooKratno()
         {
             //stop the loop
             break;
-            //the list   must be printed using for loop with the arrray's lenght
-            for (int t = 0; t <= Numbers_which_can_divide_C.size(); i++)
-            {
-                cout << t << endl;
-            }
+            
         }
         if (c % i != 0)
         {
-            cout << "No";
+            cout << "No " << c << " Can not divide " << i << endl;
         }
         else
         {
-            cout << "Yes it divides the number";
+            cout << "Yes " << c << " can divide the number " << i << endl;
             if (i % a == 0 && i % b == 0)
             {
-                cout << "Da tova e naj-malko obshto kratno";
+                cout << "Yes the number " << i << " can divide " << a << " and " << b  << endl;
                 //sloji chisloto v lista
                 Numbers_which_can_divide_C.push_front(i);
             }
         }
         i--;
+    }
+    //cout << Numbers_which_can_divide_C.size();
+    //the list   must be printed using for loop with the arrray's lenght
+    /*for (int t = 0; t < Numbers_which_can_divide_C.size(); t++)
+    {
+        cout << Numbers_which_can_divide_C[t] << endl;
+    }*/
+    for (int number : Numbers_which_can_divide_C)
+    {
+        cout << number << endl;
+        //ostava samo naj-malkoto ot vshicki chisla da se pritne
     }
     //the function is not yet ready because c++ lists are not yet studied
     return 0;
