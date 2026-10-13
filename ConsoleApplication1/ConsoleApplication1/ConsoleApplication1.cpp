@@ -33,6 +33,9 @@ int NajMalkoObshtooKratno()
     //current testing input:
     //9999
     //9999
+
+    //14
+    //4
     int a;
     int b;
     cout << "Write the first number" << endl;
@@ -54,11 +57,13 @@ int NajMalkoObshtooKratno()
         }
         if (c % i != 0)
         {
+            //i don't recommend uncometting this row
             //cout << "No " << i << " Can not divide " << c << endl;
         }
-        else
+        else if(c % i == 0)
         {
-            cout << "Yes " << i << " can divide the number " << c << endl;
+            // u can uncooment this cout row; 
+            //cout << "Yes " << i <<  " can divide " << c << endl;
             if (i % a == 0 && i % b == 0)
             {
                 cout << "JACKPOT the number " << i << " can divide " << a << " and " << b  << endl << endl;
