@@ -8,7 +8,7 @@ using namespace std;
 
 // int main () {
 //     std::cout << "Hello world" << std::endl;
-// ////Here std:: is used to omit the "using namespace std;"
+// ////Here std:: is used to omit the "using namespace std;"    
 // From https://www.w3schools.com/: "Using std:: makes it clear where names come from and 
 // avoids name conflicts in larger programs."
 //     return 0;
@@ -36,7 +36,7 @@ int NajMalkoObshtooKratno()
     int c = a * b;
     int i = c;
     //use list
-    list<string> Numbers_which_can_divide_C;
+    list<int> Numbers_which_can_divide_C;
     while (i <= c)
     {
         if (i == 0)
@@ -460,7 +460,8 @@ int main() {
     //uchebeChas();
     //Boolean_Values();
     //loops();
-    cIfElsew3();
+    //cIfElsew3();
+    NajMalkoObshtooKratno();
     return 0;
 }
 // "\n" means new line
