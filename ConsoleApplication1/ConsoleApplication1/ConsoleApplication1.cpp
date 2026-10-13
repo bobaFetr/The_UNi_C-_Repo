@@ -40,6 +40,7 @@ int NajMalkoObshtooKratno()
     int i = c;
     //use list
     list<int> Numbers_which_can_divide_C;
+    //The numbers which ca not  divide c without ostatuk ne trqbva da se pechhatat
     while (i <= c)
     {
         if (i == 0)
@@ -50,11 +51,11 @@ int NajMalkoObshtooKratno()
         }
         if (c % i != 0)
         {
-            cout << "No " << c << " Can not divide " << i << endl;
+            cout << "No " << i << " Can not divide " << c << endl;
         }
         else
         {
-            cout << "Yes " << c << " can divide the number " << i << endl;
+            cout << "Yes " << i << " can divide the number " << c << endl;
             if (i % a == 0 && i % b == 0)
             {
                 cout << "Yes the number " << i << " can divide " << a << " and " << b  << endl;
