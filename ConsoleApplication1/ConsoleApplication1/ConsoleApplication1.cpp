@@ -30,6 +30,9 @@ int NajMalkoObshtooKratno()
 {
     //340
     //100
+    //current testing input:
+    //9999
+    //9999
     int a;
     int b;
     cout << "Write the first number" << endl;
@@ -51,14 +54,14 @@ int NajMalkoObshtooKratno()
         }
         if (c % i != 0)
         {
-            cout << "No " << i << " Can not divide " << c << endl;
+            //cout << "No " << i << " Can not divide " << c << endl;
         }
         else
         {
             cout << "Yes " << i << " can divide the number " << c << endl;
             if (i % a == 0 && i % b == 0)
             {
-                cout << "Yes the number " << i << " can divide " << a << " and " << b  << endl;
+                cout << "JACKPOT the number " << i << " can divide " << a << " and " << b  << endl << endl;
                 //sloji chisloto v lista
                 Numbers_which_can_divide_C.push_front(i);
             }
@@ -74,7 +77,7 @@ int NajMalkoObshtooKratno()
     for (int number : Numbers_which_can_divide_C)
     {
         cout << number << endl;
-        //ostava samo naj-malkoto ot vshicki chisla da se pritne
+        //ostava samo naj-malkoto ot vshicki chisla da se printne
     }
     //the function is not yet ready because c++ lists are not yet studied
     return 0;
