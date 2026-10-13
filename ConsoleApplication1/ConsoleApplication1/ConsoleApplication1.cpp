@@ -30,13 +30,13 @@ int NajMalkoObshtooKratno()
     int b = 4;
     int c = a * b;
     int i = c;
-    //definition of the array s neizvestna golemina
+    //use list
     while (i <= c)
     {
         if (i == 0)
         {
             //stop the loop
-            //the array  must be printed using for loop with the arrray's lenght
+            //the list   must be printed using for loop with the arrray's lenght
         }
         if (c % i != 0)
         {
@@ -48,12 +48,12 @@ int NajMalkoObshtooKratno()
             if (i % a == 0 && i % b == 0)
             {
                 cout << "Da tova e naj-malko obshto kratno";
-                //sloji chisloto v masiva
+                //sloji chisloto v lista
             }
         }
         i--;
     }
-    //the function is not yet ready because c++ arrays are not yet studied
+    //the function is not yet ready because c++ lists are not yet studied
     return 0;
 }
 int cIfElsew3()
@@ -109,6 +109,7 @@ int loops()
         // Updation
         i++;
     } //THIS WHILE SHITTY THING IS ALSO THE SAME AS IN C# DEAM BROOOOOOOOOO..............
+    //THE FOREACH LOOP ALSO EXISTS IN C++
     return 0;
 }
 int Boolean_Values() {
