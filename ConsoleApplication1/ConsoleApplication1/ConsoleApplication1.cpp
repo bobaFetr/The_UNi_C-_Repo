@@ -26,6 +26,20 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+int uchebenChasPriGeorgi14Octomvri()
+{
+    /*int girlsweightDopulnitelno = 2;
+    int girlsweightINput = 0;
+    cin >> girlsweightINput;
+    girlsweightINput = girlsweightINput + girlsweightDopulnitelno;
+
+    int BoyFakeWeith = 3;
+    int weighBOysweightINput = 0;
+    cin >> weighBOysweightINput;
+    weighBOysweightINput = weighBOysweightINput - BoyFakeWeith;*/
+    // kak razbrah zadchata
+
+}
 int NajMalkoObshtooKratno()
 {
     //340
@@ -38,6 +52,7 @@ int NajMalkoObshtooKratno()
     //4
     int a;
     int b;
+    cout << "Warning: this program works only with positive numbers" << endl;
     cout << "Write the first number" << endl;
     cin >> a;
     cout << "Write the second number" << endl;
@@ -66,7 +81,8 @@ int NajMalkoObshtooKratno()
             //cout << "Yes " << i <<  " can divide " << c << endl;
             if (i % a == 0 && i % b == 0)
             {
-                cout << "JACKPOT the number " << i << " can divide " << a << " and " << b  << endl << endl;
+                //cout << "JACKPOT the number " << i << " can divide " << a << " and " << b  << endl << endl;
+                cout << "JACKPOT the numbers " << a << " and " << b << " can divide  " << i  << endl << endl;
                 //sloji chisloto v lista
                 Numbers_which_can_divide_C.push_front(i);
             }
