@@ -49,11 +49,17 @@ int uchebenChasPriGeorgi14Octomvri()
     double masa;
     cout << "Vuvedete masa: " << endl;
     cin >> masa;// cin chovka chovka masa
-    cout << masa << endl;
+    cout << "Masata e: " << masa << endl;
 
-    cout << "Vuvedete visochina: " << endl;
+
+    cout << "Vuvedete visochina (v metri): " << endl;
     cin >> visochina;// cin chovka chovka masa
-    cout << visochina << endl;
+    cout << "Masata e: " << visochina << endl;
+
+    BMI = masa / (visochina * visochina) / 100;
+    cout << "Vashiq BMi e: " << BMI <<  endl;
+
+
     return 0;
 }
 int NajMalkoObshtooKratno()
