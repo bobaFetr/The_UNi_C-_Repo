@@ -1,12 +1,12 @@
 // ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include <iostream>//comanda cum preprocesora
 #include <cmath>
 #include <list>
 #include <vector>
 using namespace std;
-
+//using std::cin; THis also works........
 // int main () {
 //     std::cout << "Hello world" << std::endl;
 // ////Here std:: is used to omit the "using namespace std;"    
@@ -39,6 +39,22 @@ int uchebenChasPriGeorgi14Octomvri()
     weighBOysweightINput = weighBOysweightINput - BoyFakeWeith;*/
     // kak razbrah zadchata
 
+
+    //tupata formula,,,,,, brat ne sme fizici
+    //BMI = w / h^2
+    // mass 64.1
+
+    double BMI;
+    double visochina;
+    double masa;
+    cout << "Vuvedete masa: " << endl;
+    cin >> masa;// cin chovka chovka masa
+    cout << masa << endl;
+
+    cout << "Vuvedete visochina: " << endl;
+    cin >> visochina;// cin chovka chovka masa
+    cout << visochina << endl;
+    return 0;
 }
 int NajMalkoObshtooKratno()
 {
@@ -496,7 +512,8 @@ int main() {
     //Boolean_Values();
     //loops();
     //cIfElsew3();
-    NajMalkoObshtooKratno();
+    //NajMalkoObshtooKratno();
+    uchebenChasPriGeorgi14Octomvri();
     return 0;
 }
 // "\n" means new line
