@@ -26,6 +26,21 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+int Teoriq()
+{
+    //((5 == 5) && (3 > 6)) // оценява се на false ( true && false )
+       // ((5 == 5) || (3 > 6)) // оценява се true ( true || false ) 
+    int i = 7;
+        i == 5 ? 4 : 3;
+       // cout << i << endl;
+        cout << "\n";
+        cout << 5 + 2 ? 4 : 3;
+        cout << "\n";
+        /*cout << 5  4 : 3;
+        cout << 5 ? 4 : 3;
+        cout << 5 ? 4 : 3;*/
+        return 0;
+}
 int uchebenChasPriGeorgi14Octomvri()
 {
     /*int girlsweightDopulnitelno = 2;
@@ -74,6 +89,7 @@ int NajMalkoObshtooKratno()
     //4
     int a;
     int b;
+    cout << "WARNING THIS ALGORITHM WORKS ONLY FOR POSITIVE SMALL NUMBERS";
     cout << "Warning: this program works only with positive numbers" << endl;
     cout << "Write the first number" << endl;
     cin >> a;
@@ -519,7 +535,8 @@ int main() {
     //loops();
     //cIfElsew3();
     //NajMalkoObshtooKratno();
-    uchebenChasPriGeorgi14Octomvri();
+    //uchebenChasPriGeorgi14Octomvri();
+    Teoriq();
     return 0;
 }
 // "\n" means new line
