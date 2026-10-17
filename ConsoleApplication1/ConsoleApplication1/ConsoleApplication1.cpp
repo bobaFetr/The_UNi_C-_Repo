@@ -26,6 +26,34 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+
+int zadacha1()
+{
+    int cqloChislo;
+    char x;
+    bool BulevaPromenliva;
+    float b;
+    double c;
+    cout << "Vuvedete stojnosti:" << endl;
+    cout << "Stojnost za INT:" << endl;
+    cin >> cqloChislo;
+    cout << "Stojnost za CHAR:" << endl;
+    cin >> x;
+    cout << "Stojnost za BOOL:" << endl;
+    cin >> BulevaPromenliva;
+    cout << "Stojnost za FLOAT:" << endl;
+    cin >> b;
+    cout << "Stojnost za DOUBLE:" << endl;
+    cin >> c;
+    cout << "Eto kakvo napisahte:";
+    cout << "INT:" << cqloChislo << endl;
+    cout << "CHAR:" << x << endl;
+    cout << "BOOL:" << BulevaPromenliva << endl;
+    cout << "FLOAT:" << b << endl;
+    cout << "DOUBLE:" << c << endl;
+
+    return 0;
+}
 int Teoriq()
 {
     //((5 == 5) && (3 > 6)) // оценява се на false ( true && false )
@@ -536,7 +564,8 @@ int main() {
     //cIfElsew3();
     //NajMalkoObshtooKratno();
     //uchebenChasPriGeorgi14Octomvri();
-    Teoriq();
+    //Teoriq();
+    zadacha1();
     return 0;
 }
 // "\n" means new line
