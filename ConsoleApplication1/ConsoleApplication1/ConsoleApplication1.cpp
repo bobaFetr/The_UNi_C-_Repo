@@ -36,7 +36,10 @@ int zadacha4()
 }
 int zadacha3()
 {
-
+    int a;
+    int b;
+    cin >> a;
+    cin >> b;
 }
 int zadacha2()
 {
