@@ -26,7 +26,36 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+int zadacha5()
+{
 
+}
+int zadacha4()
+{
+
+}
+int zadacha3()
+{
+
+}
+int zadacha2()
+{
+    int a;
+    int b;
+    cin >> a;
+    cin >> b;
+    int c = a + b;
+    int x = a - b;
+    int y = a * b;
+    int g = a / b;
+    int h = a % b;
+    cout << c << endl;
+    cout << x << endl;
+    cout << y << endl;
+    cout << g << endl;
+    cout << h << endl;
+    return 0;
+}
 int zadacha1()
 {
     int cqloChislo;
@@ -565,7 +594,7 @@ int main() {
     //NajMalkoObshtooKratno();
     //uchebenChasPriGeorgi14Octomvri();
     //Teoriq();
-    zadacha1();
+    zadacha2();
     return 0;
 }
 // "\n" means new line
