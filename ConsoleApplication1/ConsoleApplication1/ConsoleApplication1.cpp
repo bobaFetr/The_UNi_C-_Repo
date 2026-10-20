@@ -24,8 +24,24 @@ to the screen, and it is amazing */
 //bool	1 byte	Stores true or false values
 //char	1 byte	Stores a single character/letter/number, or ASCII values
 //int	2 or 4 bytes	Stores whole numbers, without decimals
-//float	4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 6-7 decimal digits
+//float	4 bytes	Stores fractional numbers, containing one char c = or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+int iodsfoidsuf()
+{
+    char c = 96; 
+    int  i = 0;
+    double d = 1;
+    ++c;
+    i++;
+    d--;
+    double g = c * ++d - i--;
+    cout << g << " " << i << " " << d << endl;
+    return 0;
+}
+
+
+
+
 //int zadacha7()
 //{
 //
@@ -610,7 +626,7 @@ int main() {
     //NajMalkoObshtooKratno();
     //uchebenChasPriGeorgi14Octomvri();
     //Teoriq();
-    zadacha3();
+    iodsfoidsuf();
     return 0;
 }
 // "\n" means new line
