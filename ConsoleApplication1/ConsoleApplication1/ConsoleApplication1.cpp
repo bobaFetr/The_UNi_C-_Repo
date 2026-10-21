@@ -26,6 +26,9 @@ to the screen, and it is amazing */
 //int	2 or 4 bytes	Stores whole numbers, without decimals
 //float	4 bytes	Stores fractional numbers, containing one char c = or more decimals. Sufficient for storing 6-7 decimal digits
 //double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+
+
+
 int iodsfoidsuf()
 {
     char c = 96; 
@@ -39,7 +42,22 @@ int iodsfoidsuf()
     return 0;
 }
 
+int KirkovZadacha2()
+{
+    const double OneFloInMl = 29.5735;
 
+    const double MineralnoMasloPlutnost = (double)87/(double)1000;
+
+    double mineralnoMasloInFloz = 33.814;
+    
+
+    double mineralnoMasloInMasa= mineralnoMasloInFloz  * MineralnoMasloPlutnost;
+    
+    //double MineralnoMasloMasa = mineralnoMasloInFloz * 
+
+    cout << "Mineralno maslo " << mineralnoMasloInMasa << "gr" << endl;
+    return 0;
+}
 
 
 //int zadacha7()
@@ -130,6 +148,8 @@ int Teoriq()
         cout << 5 ? 4 : 3;*/
         return 0;
 }
+
+
 int uchebenChasPriGeorgi14Octomvri()
 {
     /*int girlsweightDopulnitelno = 2;
@@ -151,6 +171,11 @@ int uchebenChasPriGeorgi14Octomvri()
     double BMI;
     double visochina;
     double masa;
+
+    char pol;
+
+    bool  oblechen;
+
     cout << "Vuvedete masa: " << endl;
     cin >> masa;// cin chovka chovka masa
     cout << "Masata e: " << masa << endl;
@@ -160,12 +185,40 @@ int uchebenChasPriGeorgi14Octomvri()
     cin >> visochina;// cin chovka chovka masa
     cout << "Masata e: " << visochina << endl;
 
+    cout << "vuvedete pol (m/f)";
+    cin >> pol;
+
+    if (pol == 'f' || pol == 'F')
+    {
+        cout << "Jenski pol" << endl;
+        masa += 2;
+    }
+    else if (pol == 'm' || pol == 'M')
+    {
+        cout << "Mujki pol" << endl;  
+
+        //masa -= 3;
+        masa = masa + (-3);
+    }
+
+    cout << "Oblechen li si? (1 za da, 0 za ne):";
+    cin >> oblechen;
+
+    if (oblechen == true)
+    {
+        masa = masa - (2 * ((float)400.0 / (float)1000)) - 1;//kastvame
+
+        cout << "Novata masa:" << masa << endl;
+    }
+
     BMI = masa / (visochina * visochina) / 100;
+
     cout << "Vashiq BMi e: " << BMI <<  endl;
 
 
     return 0;
 }
+
 int NajMalkoObshtooKratno()
 {
     //340
@@ -626,7 +679,9 @@ int main() {
     //NajMalkoObshtooKratno();
     //uchebenChasPriGeorgi14Octomvri();
     //Teoriq();
-    iodsfoidsuf();
+    //iodsfoidsuf();
+    KirkovZadacha2();
+    //uchebenChasPriGeorgi14Octomvri();
     return 0;
 }
 // "\n" means new line
